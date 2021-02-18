@@ -14,6 +14,7 @@ html{
     scroll-behavior: smooth;
 }
 .devis {
+
     position: relative;
     z-index: 9;
     margin: 0;
@@ -179,5 +180,36 @@ address{
     .card-title {
         margin-bottom: 3px;
     }
+}
+
+@media (max-width: 1170px) {
+    .devis {
+        padding-top: 50px;
+    }
+    .main-arrow, .main-arrow a img {
+        margin-bottom: 205px;
+        width: 100px;
+        height: 100px;
+    }
+
+    #title-info {
+        padding: 50px;
+    }
+    .card {
+        width: 460px; !important;
+        height: 500px; !important;
+    }
+    .card-img {
+        width: 320px;
+        height: 180px;
+    }
+    .container {
+        max-width: 760px;
+    }
+    .card-title {
+        margin-bottom: 3px;
+    }
+
+
 }
 
