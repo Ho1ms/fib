@@ -34,7 +34,6 @@ html{
 
 #devis {
     margin: 0;
-
 }
 
 .main-arrow{
@@ -55,7 +54,7 @@ html{
     font-family: 'PT Sans', sans-serif;
     background-color: white;
     width: 100%;
-    height: 92vh;
+    height: 90vh;
     text-align: center;
 }
 
@@ -78,10 +77,10 @@ html{
 
 
 .footer {
-    width: 100%;
-    height: 8vh;
+    height: 10vh;
     position: relative;
     background-color: black;
+    margin-bottom: 0;
 }
 #copirate{
     color: silver;
@@ -154,5 +153,31 @@ address{
 
     to {opacity:1;}
 
+}
+
+@media (max-width: 1920px) {
+    .devis {
+        padding-top: -50px;
+    }
+    .main-arrow {
+        margin-bottom: -35px;
+    }
+    #title-info {
+        padding: 10px;
+    }
+    .card {
+        max-width: 360px;
+        max-height: 300px;
+    }
+    .card-img {
+        width: 320px;
+        height: 180px;
+    }
+    .container {
+        max-width: 1120px;
+    }
+    .card-title {
+        margin-bottom: 3px;
+    }
 }
 
