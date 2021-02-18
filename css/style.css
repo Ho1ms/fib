@@ -78,7 +78,7 @@ html{
 }
 
 
-.footer {
+footer {
     height: 10vh;
     position: relative;
     background-color: black;
@@ -224,7 +224,5 @@ address{
     .card-title {
         margin-bottom: 3px;
     }
-
-
 }
 
