@@ -176,7 +176,6 @@ main .url {
     h1 {
         font-size: 20px;
         padding-top: 2%;
-        background-color: pink;
     }
     .menu-button {
         right: 3%;
@@ -193,29 +192,29 @@ main .url {
         letter-spacing: 1px;
     }
 }
-/*@media only screen*/
-/*and (device-width : 414px)*/
-/*and (device-height : 896px)*/
-/*and (-webkit-device-pixel-ratio : 2) {*/
-/*    h1 {*/
-/*        font-size: 20px;*/
-/*        padding-top: 2%;*/
-/*    }*/
-/*    .menu-button {*/
-/*        right: 3%;*/
-/*        top: 25%;*/
-/*        transform: rotate(90deg) scaleY(2) scaleX(1.25);*/
-/*    }*/
-/*    .menu-button-active {*/
-/*        right: 3%;*/
-/*        top: 25%;*/
-/*        transform: rotate(0deg) scaleY(2) scaleX(1.25);*/
-/*    }*/
-/*    address, #copirate {*/
-/*        font-size: 10px;*/
-/*        letter-spacing: 1px;*/
-/*    }*/
-/*}*/
+@media only screen
+and (device-width : 414px)
+and (device-height : 896px)
+and (-webkit-device-pixel-ratio : 2) {
+    h1 {
+        font-size: 20px;
+        padding-top: 2%;
+    }
+    .menu-button {
+        right: 3%;
+        top: 25%;
+        transform: rotate(90deg) scaleY(2) scaleX(1.25);
+    }
+    .menu-button-active {
+        right: 3%;
+        top: 25%;
+        transform: rotate(0deg) scaleY(2) scaleX(1.25);
+    }
+    address, #copirate {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+}
 @media (min-width: 2000px) {
     h1 {
         padding-top: 0.6%;
