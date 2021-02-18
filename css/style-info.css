@@ -152,7 +152,7 @@ main .url {
     width: 100%;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 1175px) {
     h1 {
         font-size: 20px;
         padding-top: 2%;
