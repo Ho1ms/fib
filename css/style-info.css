@@ -82,7 +82,7 @@ address{
         width: 100%;
     }
     #copirate, address {
-        font-size: 10px;
+        font-size: 25%;
         letter-spacing: 1px;
     }
 
