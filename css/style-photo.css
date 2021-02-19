@@ -173,18 +173,6 @@ main .url {
     }
 }
 
-@media (min-width: 2000px) {
-    h1 {
-        padding-top: 0.6%;
-    }
-    .menu-button {
-        top: 32.5%;
-    }
-    .menu-button-active {
-        top: 30%;
-        right: 1.2%;
-    }
-}
 @media only screen
 and (device-width : 414px)
 and (device-height : 896px)
@@ -206,5 +194,17 @@ and (-webkit-device-pixel-ratio : 2) {
     address, #copirate {
         font-size: 10px;
         letter-spacing: 1px;
+    }
+}
+@media (min-width: 2000px) {
+    h1 {
+        padding-top: 0.6%;
+    }
+    .menu-button {
+        top: 32.5%;
+    }
+    .menu-button-active {
+        top: 30%;
+        right: 1.2%;
     }
 }
