@@ -201,11 +201,9 @@ address{
 and (device-width : 414px)
 and (device-height : 896px)
 and (-webkit-device-pixel-ratio : 2) {
-    .info {
-        background-color: red;
-    }
+
     address, #copirate {
-        font-size: 20px;
+        font-size: 40px;
         letter-spacing: 1px;
     }
 }
