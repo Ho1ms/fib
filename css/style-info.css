@@ -180,7 +180,7 @@ main .url {
     }
 }
 
-@media screen 
+@media screen
 and (device-width : 414px)
 and (device-height : 896px)
 and (-webkit-device-pixel-ratio : 2) {
@@ -237,3 +237,6 @@ and (-webkit-device-pixel-ratio : 2) {
     padding-bottom: 2px;
 }
 
+td{
+    padding: 10px 25px 10px 25px;
+}
