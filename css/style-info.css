@@ -247,3 +247,6 @@ and (-webkit-device-pixel-ratio : 2) {
 td{
     padding: 10px 25px 10px 25px;
 }
+table{
+    max-width: 100%;
+}
