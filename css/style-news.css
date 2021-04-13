@@ -156,8 +156,12 @@ address{
     width: 100%;
 
 }
-
-@media (max-width: 375px) {
+.container {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 375px) {
     h1 {
         font-size: 20px;
         padding-top: 2%;
@@ -254,9 +258,4 @@ p {
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-.container {
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
 }
