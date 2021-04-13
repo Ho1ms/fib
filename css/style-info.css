@@ -181,6 +181,9 @@ address{
         font-size: 10px;
         letter-spacing: 1px;
     }
+    .container {
+        max-width: 90%;
+    }
 }
 
 @media screen
@@ -204,6 +207,10 @@ and (-webkit-device-pixel-ratio : 2) {
     address, #copirate {
         font-size: 10px;
         letter-spacing: 1px;
+    }
+    .container {
+        max-width: 90%;
+
     }
 }
 @media (min-width: 2000px) {
