@@ -83,7 +83,7 @@ main{
 
 footer {
     height: 6.5vh;
-    position: absolute;
+    position: relative;
     background-color: black;
     margin-bottom: 0;
     width: 100%;
